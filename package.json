@@ -1,7 +1,8 @@
 {
-  "name": "@guerrerocarlos/merge-schemas",
-  "version": "0.2.0",
-  "description": "Merge GraphQL Schemas the RAW way",
+  "githubname": "@guerrerocarlos/merge-schemas",
+  "name": "merge-schemas",
+  "version": "0.2.3",
+  "description": "Merge many GraphQL Schemas into one",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": "https://github.com/guerrerocarlos/merge-schemas",

@@ -1,5 +1,5 @@
 {
-  "name": "merge-schemas",
+  "name": "@guerrerocarlos/merge-schemas",
   "version": "0.1.0",
   "description": "Merge GraphQL Schemas the RAW way",
   "main": "dist/index.js",
@@ -24,7 +24,14 @@
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "3.2.2"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "resolutions": {
+    "graphql": "^14.5.8"
+  },
   "scripts": {
+    "publish": "tsc -p .",
     "build": "tsc -p .",
     "lint": "tslint -p .",
     "test": "jest",
